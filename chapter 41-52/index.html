@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Event</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hide Element</title>
+</head>
+<body>
+  <button id="hideButton">Hide</button>
+  <div id="content">This is some content.</div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Color</title>
+  <style>
+    #myLink:hover {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <a id="myLink" href="#">Hover over me</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scroll to Top</title>
+</head>
+<body>
+  <a id="scrollToTop" href="#">Scroll to Top</a>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play Sound</title>
+</head>
+<body>
+  <a id="playSound" href="#">Play Sound</a>
+  <audio id="myAudio" src="sound.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open New Window</title>
+</head>
+<body>
+  <a id="openWindow" href="#" target="_blank">Open New Window</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alert Message</title>
+</head>
+<body>
+  <button id="alertButton">Click Me</button>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Color on Hover</title>
+  <style>
+    #hoverButton:hover {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <button id="hoverButton">Hover over me</button>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play Sound on Click</title>
+</head>
+<body>
+  <button id="playSoundButton">Play Sound</button>
+  <audio id="myAudio" src="sound.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Over Event</title>
+</head>
+<body>
+  <div id="myElement">Hover over me</div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Out Event</title>
+  <style>
+    #myElement {
+      background-color: lightblue;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="myElement">Mouse out of me to hide me</div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open and Close Window</title>
+</head>
+<body>
+  <a id="openNewWindow" href="#">Open New Window</a>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<input type="text" id="userInput" value="Hello, world!">
+<button onclick="readInputValue()">Read Value</button>
+
+<input type="checkbox" id="myCheckbox" checked>
+<button onclick="readCheckboxValue()">Read Checkbox Value</button>
+
+<select id="mySelect">
+  <option value="option1">Option 1</option>
+  <option value="option2" selected>Option 2</option>
+  <option value="option3">Option 3</option>
+</select>
+<button onclick="readSelectValue()">Read Select Value</button>
+
+<input type="text" id="textField">
+<button onclick="setTextInField()">Set Text</button>
+
+<input type="text" id="status">
+<button onclick="setStatus()">Set Status</button>
+
+<input type="text" id="emptyInput">
+<button onclick="fillEmptyInput()">Fill Input</button>
+
+<form id="registrationForm">
+  <label for="username">Username:</label>
+  <input type="text" id="username" required><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" required><br><br>
+
+  <label for="confirmPassword">Confirm Password:</label>
+  <input type="password" id="confirmPassword" required><br><br>
+
+  <button type="button" onclick="validateForm()">Submit</button>
+</form>
+<div id="errorMessage"></div>
+
+<p id="expandableParagraph">This is some text that can be expanded.</p>
+<a href="#" onclick="expandParagraph()">Show More</a>
+
+<p id="searchParagraph">This is a sample paragraph for searching.</p>
+<button onclick="searchText()">Search</button>
+
+<p id="longestWordParagraph">This is a paragraph with some long words.</p>
+<button onclick="findLongestWord()">Find Longest Word</button>
+
+<input type="text" id="textField" placeholder="Enter text">
+<p id="outputParagraph">This paragraph will be updated.</p>
+<button onclick="updateParagraph()">Update Paragraph</button>
+
+<input type="text" id="textField" placeholder="Enter text">
+<p id="outputParagraph">This paragraph will be updated.</p>
+<button onclick="updateParagraph()">Update Paragraph</button>
+
+<p id="boldSentence">Click me to make me bold.</p>
+
+<div id="imageContainer">
+  <img src="image.jpg" id="myImage">
+  <p id="imageText" style="display: none;">Image Description</p>
+</div>
+
+<h1 id="hoverHeading">Hover over me</h1>
+
+<p id="underlineParagraph">Hover over me to underline</p>
